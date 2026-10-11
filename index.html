@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Your One-Page Strategy — FoundersPath</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<title>Your One-Page Strategy — Two Weeks Out</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --ink: #1a2326; --ink-soft: #374151; --muted: #6b7280; --muted-soft: #9ca3af;
-    --border: #e5e7eb; --border-soft: #f1f3f5;
-    --bg: #ffffff; --bg-soft: #fafaf7;
-    --green: #0f7a4f; --bright: #3dbe7c; --em-soft: #e8f1ec;
-    --cream-soft: #f5efe0; --amber: #b07d3a;
-    --danger: #c46b6b; --danger-soft: #f6e2e2;
-    --font-display: 'Source Serif 4', Georgia, serif;
-    --font-body: 'Inter', system-ui, sans-serif;
+  :root{
+    --ink:#10131a; --ink-soft:#10131a; --muted:#59616e; --muted-soft:#9ba3af;
+    --border:#e9ecf5; --border-soft:#e9ecf5;
+    --bg:#ffffff; --bg-soft:#fbfaf6;
+    --green:#2747f5; --bright:#2747f5; --em-soft:#e9ecf5;
+    --cream-soft:#e9ecf5; --amber:#7d5300;
+    --danger:#b3261e; --danger-soft:#fde9e7;
+    --font-display:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+    --font-body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    font-family: var(--font-body);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     color: var(--ink);
     background: var(--bg-soft);
     line-height: 1.55;
@@ -44,16 +44,13 @@
     margin: 0 0 6px;
   }
   h1 {
-    font-family: var(--font-display);
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
     font-size: 32px;
     line-height: 1.2;
     color: var(--ink);
-    margin: 0 0 8px;
-    font-weight: 600;
-  }
+    margin: 0 0 8px;font-weight:800;letter-spacing:-.03em;font-style:normal;}
   .lede {
-    font-family: var(--font-display);
-    font-style: italic;
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;font-style:normal;
     color: var(--ink-soft);
     font-size: 16px;
     margin: 0;
@@ -71,19 +68,15 @@
     margin-bottom: 6px;
   }
   .step-num {
-    font-family: var(--font-display);
-    font-size: 28px;
-    font-weight: 600;
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
+    font-size: 28px;font-weight:800;
     color: var(--bright);
-    line-height: 1;
-  }
+    line-height: 1;letter-spacing:-.03em;font-style:normal;}
   .step-title {
-    font-family: var(--font-display);
-    font-size: 22px;
-    font-weight: 600;
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
+    font-size: 22px;font-weight:800;
     color: var(--ink);
-    line-height: 1.25;
-  }
+    line-height: 1.25;letter-spacing:-.03em;font-style:normal;}
   .step-sub {
     color: var(--muted);
     font-size: 14px;
@@ -98,12 +91,12 @@
     margin-bottom: 5px;
   }
   input[type="text"], input[type="number"], textarea {
-    font-family: var(--font-body);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 14px;
     color: var(--ink);
     background: white;
     border: 1px solid var(--border);
-    border-radius: 4px;
+    border-radius:0;
     padding: 9px 11px;
     width: 100%;
   }
@@ -121,7 +114,7 @@
   .field:last-child { margin-bottom: 0; }
   .block-card {
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius:0;
     padding: 16px 18px;
     margin-bottom: 12px;
     background: white;
@@ -130,7 +123,7 @@
     border-left: 4px solid var(--green);
   }
   .block-name {
-    font-family: var(--font-display);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: var(--green);
@@ -148,7 +141,7 @@
   .preview-card {
     background: var(--em-soft);
     border-left: 4px solid var(--green);
-    border-radius: 4px;
+    border-radius:0;
     padding: 14px 18px;
     margin-top: 10px;
   }
@@ -161,15 +154,13 @@
     margin-bottom: 6px;
   }
   .preview-body {
-    font-family: var(--font-display);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 16px;
     color: var(--ink);
-    line-height: 1.5;
-    font-style: italic;
+    line-height: 1.5;font-style:normal;
     min-height: 24px;
   }
-  .preview-body.empty {
-    color: var(--muted-soft);
+  .preview-body.empty {color:#59616e;
     font-style: italic;
   }
 
@@ -178,14 +169,14 @@
     margin-top: 12px;
     padding: 14px 16px;
     background: var(--bg-soft);
-    border-radius: 4px;
+    border-radius:0;
     border-left: 3px solid var(--bright);
   }
   .hours-bar {
     display: flex;
     height: 32px;
     margin-top: 10px;
-    border-radius: 4px;
+    border-radius:0;
     overflow: hidden;
     background: var(--border-soft);
   }
@@ -194,7 +185,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: var(--font-display);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 13px;
     font-weight: 600;
     overflow: hidden;
@@ -212,8 +203,7 @@
     gap: 12px;
   }
   .hours-legend span { white-space: nowrap; }
-  .hours-empty {
-    color: var(--muted-soft);
+  .hours-empty {color:#59616e;
     font-size: 13px;
     font-style: italic;
     text-align: center;
@@ -232,12 +222,10 @@
   }
   .output-header .eyebrow { color: var(--bright); }
   .output-header h2 {
-    font-family: var(--font-display);
-    font-size: 26px;
-    font-weight: 600;
+    font-family: 'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;
+    font-size: 26px;font-weight:800;
     color: var(--ink);
-    margin: 4px 0 6px;
-  }
+    margin: 4px 0 6px;letter-spacing:-.03em;font-style:normal;line-height:1.04;}
   .output-header p {
     color: var(--muted);
     font-size: 14px;
@@ -246,7 +234,7 @@
   }
   .strategy-doc {
     border: 2px solid var(--ink);
-    border-radius: 8px;
+    border-radius:0;
     padding: 32px 36px;
     background: white;
     page-break-inside: avoid;
@@ -257,7 +245,7 @@
   }
   .strategy-block:last-child { margin-bottom: 0; }
   .strategy-label {
-    font-family: var(--font-body);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 11px;
     font-weight: 700;
     color: var(--green);
@@ -268,7 +256,7 @@
     border-bottom: 1px solid var(--border);
   }
   .strategy-statement {
-    font-family: var(--font-display);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 18px;
     line-height: 1.55;
     color: var(--ink);
@@ -288,7 +276,7 @@
     background: var(--cream-soft);
     border-left: 4px solid var(--amber);
     padding: 10px 14px;
-    border-radius: 4px;
+    border-radius:0;
     margin-top: 10px;
     font-size: 13px;
     color: var(--ink-soft);
@@ -302,7 +290,7 @@
   }
   .channel-card {
     background: var(--bg-soft);
-    border-radius: 4px;
+    border-radius:0;
     padding: 12px 16px;
   }
   .channel-card.primary { border-left: 3px solid var(--green); }
@@ -317,7 +305,7 @@
   .channel-card.primary .channel-tag { color: var(--green); }
   .channel-card.supporting .channel-tag { color: var(--bright); }
   .channel-name {
-    font-family: var(--font-display);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: var(--ink);
@@ -332,7 +320,7 @@
     margin-top: 24px;
     padding: 14px 18px;
     background: var(--em-soft);
-    border-radius: 6px;
+    border-radius:0;
     font-size: 14px;
     color: var(--ink-soft);
     line-height: 1.55;
@@ -342,7 +330,7 @@
     padding: 36px;
     background: var(--bg-soft);
     border: 1px dashed var(--border);
-    border-radius: 6px;
+    border-radius:0;
     text-align: center;
     color: var(--muted);
     font-style: italic;
@@ -358,11 +346,11 @@
     border-top: 1px solid var(--border);
   }
   .btn {
-    font-family: var(--font-body);
+    font-family: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
     font-size: 13px;
     font-weight: 600;
     padding: 9px 18px;
-    border-radius: 4px;
+    border-radius:0;
     cursor: pointer;
     border: 1px solid var(--border);
     background: white;
@@ -371,17 +359,16 @@
   .btn:hover { background: var(--bg-soft); }
   .btn-primary {
     background: var(--green);
-    color: white;
-    border-color: var(--green);
+    color: white;border-color:#ffffff;
   }
-  .btn-primary:hover { background: #0c6643; }
+  .btn-primary:hover { background: #1b36c9; }
   .btn-example {
     background: var(--cream-soft);
     color: var(--amber);
     border-color: var(--cream-soft);
     font-weight: 600;
   }
-  .btn-example:hover { background: #ecdfbf; }
+  .btn-example:hover { background: #d5d9e4; }
   .btn-ghost { color: var(--muted); }
 
   /* Print */
@@ -394,19 +381,33 @@
     input, textarea {
       border: none;
       border-bottom: 1px solid var(--border);
-      border-radius: 0;
+      border-radius:0;
       padding: 4px 0;
       background: transparent;
     }
     .empty-output { display: none; }
   }
+
+/* Two Weeks Out module band, October 2026 system */
+.two-band{display:flex;flex-wrap:wrap;gap:4px 18px;justify-content:space-between;align-items:center;padding:12px 24px;background:#D596FF;color:#10131a;border-bottom:2px solid #10131a;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.two-band .two-wm{font-family:'Bricolage Grotesque','Arial Narrow',system-ui,sans-serif;font-weight:800;font-size:17px;letter-spacing:-.03em;line-height:1;color:#10131a}
+.two-band .two-mod{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;line-height:1.3;color:#10131a}
+body{-webkit-font-smoothing:antialiased}
+@media print{.two-band{display:none !important}}
+/* shared touches, October 2026 system */
+button,select,optgroup,option{font-family:inherit}
+input[type=checkbox],input[type=radio],input[type=range]{accent-color:#2747f5}
+h1 em,h1 i{font-style:normal !important;font-weight:inherit !important;color:inherit !important;background:linear-gradient(#ff5a1f,#ff5a1f) left calc(100% - .04em)/100% .09em no-repeat;padding-bottom:.02em;-webkit-box-decoration-break:clone;box-decoration-break:clone;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+/* contrast on dark and tinted blocks */
+div.hours-bar-segment.buffer{color:#10131a}
 </style>
 </head>
 <body>
+<div class="two-band"><span class="two-wm">Two Weeks Out</span><span class="two-mod">07 / Find Your Customers</span></div>
 <div class="sheet">
 
 <header class="brand">
-  <p class="eyebrow">The Founder's Operating System  ·  Marketing for Bootstrapped Ventures</p>
+  <p class="eyebrow">The Owner's Operating System  ·  Marketing for Bootstrapped Ventures</p>
   <h1>Your One-Page Strategy</h1>
   <p class="lede">Three things in order: a positioning sentence with the exclusion in it, a single audience narrow enough to picture, and a channel-and-hours allocation you can actually execute.</p>
   <div style="margin-top: 14px;">
@@ -420,7 +421,7 @@
     <span class="step-num">01</span>
     <span class="step-title">Positioning, with the exclusion</span>
   </div>
-  <p class="step-sub">Two halves of a sentence: who you're specifically for, and what you're specifically against. The 'against' is the part most founders skip.</p>
+  <p class="step-sub">Two halves of a sentence: who you're specifically for, and what you're specifically against. The 'against' is the part most owners skip.</p>
 
   <div class="block-card green-edge">
     <div class="field">
@@ -470,7 +471,7 @@
   <div class="block-card green-edge">
     <div class="field">
       <label for="primary-channel">Primary channel (the one that does the acquisition work)</label>
-      <input type="text" id="primary-channel" placeholder="e.g., Founder-led content distributed through high-credibility food publications and a Substack">
+      <input type="text" id="primary-channel" placeholder="e.g., Owner-led content distributed through high-credibility food publications and a Substack">
     </div>
     <div class="input-grid-2">
       <div class="field">
@@ -484,7 +485,7 @@
           <option>Paid advertising</option>
           <option>Strategic partnerships &amp; co-marketing</option>
           <option>Referrals &amp; word-of-mouth programs</option>
-          <option>Founder-led sales / outbound</option>
+          <option>Owner-led sales / outbound</option>
           <option>Community building</option>
           <option>Events &amp; speaking</option>
           <option>PR / earned media</option>
@@ -534,7 +535,7 @@
           <option>Paid advertising</option>
           <option>Strategic partnerships &amp; co-marketing</option>
           <option>Referrals &amp; word-of-mouth programs</option>
-          <option>Founder-led sales / outbound</option>
+          <option>Owner-led sales / outbound</option>
           <option>Community building</option>
           <option>Events &amp; speaking</option>
           <option>PR / earned media</option>
@@ -615,7 +616,7 @@ const EXAMPLE = {
   posAgainst: "the supermarket markup on clean-label products, and the category claims that don't deliver on them",
   audienceDesc: "The home cook in their thirties or forties who follows two or three serious food publications (Bon App\u00e9tit, Eater, Cherry Bombe), has at least one specialty ingredient subscription already, and reads ingredient labels reflexively. Lives in or near a metro area. Cooks four or more nights a week. The kind of person who quotes Samin Nosrat in casual conversation and would rather pay more for fewer, better ingredients than less for many compromised ones.",
   audienceSize: "~2 million in the US",
-  primaryChannel: "Founder-led content writing about the intersection of specialty food retail, ingredient sourcing, and the broken economics of the supermarket markup. Distributed through a small set of credible food publications and my own Substack.",
+  primaryChannel: "Owner-led content writing about the intersection of specialty food retail, ingredient sourcing, and the broken economics of the supermarket markup. Distributed through a small set of credible food publications and my own Substack.",
   primaryType: "Content marketing (writing, video, podcasting)",
   primaryDistribution: "Third-party publications (guest writing)",
   primaryWhy: "Writing is a real skill of mine \u2014 eleven years of brand and CRM work gave me the voice. The audience consumes long-form food media regularly. And credibility-built audiences convert at fundamentally better unit economics than paid-acquired ones, which is the only path that solves my CAC problem.",
@@ -834,7 +835,7 @@ function buildObservations(d) {
 
   // Hours sanity check
   if (d.weeklyHours > 20) {
-    obs.push(`<strong>Twenty-plus weekly hours is rare.</strong> The lesson's framing: for most solo founders, the honest number is 5 to 15. Twenty-five and up almost never holds. If your number is high, double-check that it's production hours \u2014 not strategy, meetings, or reading.`);
+    obs.push(`<strong>Twenty-plus weekly hours is rare.</strong> The lesson's framing: for most solo owners, the honest number is 5 to 15. Twenty-five and up almost never holds. If your number is high, double-check that it's production hours \u2014 not strategy, meetings, or reading.`);
   } else if (d.weeklyHours < 5) {
     obs.push(`<strong>Fewer than five weekly hours is structurally hard.</strong> At this allocation, sustaining a primary channel becomes very difficult. The honest move may be to name the help you need before the strategy goes live, rather than after.`);
   }
